@@ -48,4 +48,23 @@ function isDivisble(){
     console.log(tot);
 }
 isDivisble();
-//hello
+
+//daily challenge 
+var words = prompt("give me hella words");
+var array = words.split(',');
+
+var max = 0;
+array.forEach(function(word){
+    if(word.length>max){
+        max = word.length;
+    }
+});
+
+console.log("*".repeat(max+4));
+
+array.forEach(function(word){
+    var frame = "* "+word+" ".repeat(max - word.length)+" *";
+    console.log(frame);
+});
+
+console.log("*".repeat(max+4));
