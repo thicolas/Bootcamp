@@ -1,0 +1,50 @@
+/* body{
+    font-size:30px;
+}
+div{
+    background-color: lightblue;
+    padding: 2rem;
+}
+li:first-child{
+    display: none;
+}
+
+li:last-child{
+    border: 1px solid goldenrod;
+} */
+
+/* img{
+    width:100px;
+}
+
+.is-read {
+    color: red;
+} */
+
+.planet{
+    
+}
+.mercury{
+    background-color:red;
+}
+.venus {
+    background-color:brown;
+}
+.earth {
+    background-color:green;
+}
+.mars {
+    background-color: orange;
+}
+.jupiter {
+    background-color: yellow;
+}
+.saturn {
+    background-color: slategray;
+}
+.uranus {
+    background-color:blue;
+}
+.neptune{
+    background-color: skyblue;
+}
